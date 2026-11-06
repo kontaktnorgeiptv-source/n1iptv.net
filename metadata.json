@@ -1,0 +1,6 @@
+{
+  "name": "N1 IPTV",
+  "description": "Svensk försäljningsplattform för N1 IPTV premiumabonnemang: livekanaler, ett omfattande film- och seriekatalog, abonnemang, kundomdömen och en interaktiv betalningsmodul.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
