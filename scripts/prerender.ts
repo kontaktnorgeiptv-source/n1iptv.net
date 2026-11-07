@@ -30,7 +30,7 @@ const BRAND = "N1 IPTV";
 // and break this byte-for-byte match. Use a plain separator (| or —) instead.
 const TPL_HTML_TAG = '<html lang="sv">';
 const TPL_CANONICAL = `<link rel="canonical" href="${SITE}/" />`;
-const TPL_TITLE = "<title>IPTV Sverige | Köp IPTV abonnemang — bästa IPTV</title>";
+const TPL_TITLE = "<title>N1 IPTV | IPTV Sverige — Köp IPTV abonnemang 4K/8K</title>";
 
 const template = readFileSync(resolve(DIST, "index.html"), "utf8");
 
@@ -453,11 +453,11 @@ for (const tLang of HOME_LANGS) {
 
 // ---- homepage (per language) -----------------------------------------------
 const HOME_TITLE: Record<string, string> = {
-  sv: "IPTV Sverige | Köp IPTV abonnemang — bästa IPTV",
+  sv: "N1 IPTV | IPTV Sverige — Köp IPTV abonnemang 4K/8K",
   en: "IPTV Sweden | Buy Swedish IPTV — Premium IPTV Provider",
 };
 const HOME_DESC: Record<string, string> = {
-  sv: "Köp IPTV abonnemang i Sverige hos din bästa IPTV leverantör: 69 000+ livekanaler, 220 000+ filmer och serier i upp till 8K. IPTV för Smart TV, Android och Fire TV — utan bindningstid.",
+  sv: "IPTV Sverige med N1 IPTV: 69 000+ livekanaler och 220 000+ filmer och serier i upp till 8K. IPTV för Smart TV, Android och Fire TV — utan bindningstid. ★ 4.9/5",
   en: "IPTV Sweden made simple: buy Swedish IPTV from a premium IPTV provider. 69,000+ live channels, 220,000+ movies and series in up to 8K. Works on Smart TV, Android and Fire TV.",
 };
 const HOME_BODY: Record<string, string[]> = {
