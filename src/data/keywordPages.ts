@@ -1,3 +1,4 @@
+import { KW_PILLARS } from "./kwPillars";
 import { SITE_URL as SITE, BRAND_NAME, WA_NUMBER } from "../siteConfig";
 import { KW_2027_PAGES } from "./kw2027Pages";
 import type { LangCode } from "../i18n";
@@ -55,7 +56,7 @@ const CORE_LINKS_SV =
 const GUARANTEE_SV =
   `Varje ${BRAND}-abonnemang innehåller hela kanal- och VOD-katalogen, 15 dagars återbetalningsgaranti och support dygnet runt via [WhatsApp](${WA}).`;
 
-const RAW_KEYWORD_PAGES: KeywordPage[] = [...KW_2027_PAGES, 
+const RAW_KEYWORD_PAGES: KeywordPage[] = [...KW_PILLARS, ...KW_2027_PAGES, 
   // ── Core intent ───────────────────────────────────────────────────────────
   {
     slug: "iptv-kopa",
